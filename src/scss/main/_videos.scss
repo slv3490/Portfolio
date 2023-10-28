@@ -1,0 +1,72 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.contenido-proyecto {
+    margin: 2rem auto;
+    filter: grayscale(1);
+    width: 100%;
+    cursor: pointer;
+    &:hover {
+        filter: grayscale(0);
+        transition: 1s;
+    }
+}
+.box {
+    video {
+        width: 100%;
+    }
+}
+.descripcion-proyecto img {
+    height: 3rem;
+}
+.box .descripcion-proyecto {
+    opacity: 0;
+    height: 0;
+    transition: all 400ms;
+    visibility: hidden;
+    p {
+        font-weight: v.$bold;
+        margin: 1rem 0;
+    }
+}
+.contenido-proyecto:hover {
+    .box {
+        border: 1px solid v.$negro;
+        background-color: rgba(50, 50, 50, 0.9);
+        padding-bottom: 1rem;   
+        // box-shadow: 0 0 50px -6px #676a90;
+        &.box-color-7 {
+            box-shadow: 0 0 50px -3px #4338CA;
+        }
+        &.box-color-6 {
+            box-shadow: 0 0 50px -6px #0da6f3;
+        }
+        &.box-color-5 {
+            box-shadow: 0 0 40px -5px #E08709,
+            0 0 24px 0px #71B100;
+        }
+        &.box-color-4 {
+            box-shadow: 0 0 40px -5px #F53756,
+            0 0 24px 0px #752F97;
+        }
+        &.box-color-3 {
+            box-shadow: 0 0 50px -3px #784D3C;
+        }
+        &.box-color-2 {
+            box-shadow: 0 0 50px -6px #9C27B0;
+        }
+        &.box-color-1 {
+            box-shadow: 0 0 38px -6px #0097A7,
+            0 0 30px 0 #FFC107;
+        }
+    }
+    .descripcion-proyecto {
+        opacity: 1;
+        visibility: visible;
+        height: 7rem;
+    }
+}
+.iconos-video {
+    display: flex;
+    justify-content: space-evenly;
+}

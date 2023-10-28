@@ -1,0 +1,40 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.contenedor-burbujas {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.burbujas {
+    position: absolute;
+    display: flex;
+}
+.burbujas span {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    background-color: v.$crema;
+    margin: 0 .4rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px v.$cremaOscuro,
+    0 0 50px v.$crema,
+    0 0 100px v.$crema;
+    animation: animate 23s linear infinite;
+    animation-duration: calc(120s / var(--i));
+}
+.burbujas span:nth-child(even) {
+    background-color: v.$azul;
+    box-shadow: 0 0 10px v.$azulOscuro,
+    0 0 50px v.$azul,
+    0 0 100px v.$azul;
+}
+@keyframes animate {
+    0% {
+        transform: translateY(240vh) scale(0);
+    }
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
+}

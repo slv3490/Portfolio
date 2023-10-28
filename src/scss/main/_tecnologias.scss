@@ -1,0 +1,70 @@
+@use "base/mixins" as m;
+
+.element, #circle, .javascript, .sql, .redondo {
+    visibility: hidden;
+    display: none;
+}
+
+.element, #circle, .javascript, .sql, .redondo {
+    visibility: visible;
+    display: inherit;
+}
+.element{
+    position: absolute;
+    width: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#circle{
+    position: relative;
+    width: 15rem;
+    height:170px;
+    margin: 10rem auto 0 auto;
+}
+
+.javascript {
+    width: 3rem;
+}
+.sql {
+    border-radius: 100%;
+}
+.redondo {
+    position: relative;
+    top: 20%;
+    left: 2%;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 9rem;
+}
+
+@include m.miniTel {
+    .redondo {
+        top: 7%;
+        width: 14rem;
+    }
+}
+
+@include m.tablet {
+    .element{
+        width: 8rem;
+    }
+    
+    #circle{
+        width: 40rem;
+        height:340px;
+        margin: 18rem auto;
+    }
+    
+    .javascript {
+        width: 6rem;
+    }
+    .redondo {
+        top: 3%;
+        width: 30rem;
+    }
+}
+.contenedor-tecnologias p {
+    margin: 2rem;
+}

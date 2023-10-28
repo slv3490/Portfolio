@@ -1,0 +1,57 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.centrado {
+    width: 85%;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    @include m.telefono {
+        width: 90%;
+    }
+    @include m.tablet {
+        width: 95%;
+    }
+}
+.proyectos p {
+    text-align: center;
+}
+@include m.tablet {
+    .proyectos {
+        display: flex;
+        overflow: scroll;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        .contenido-proyecto {
+            padding-top: 5rem;
+            height: 50rem;
+            flex: 1 0 auto;
+            width: 50rem;
+            margin: 0 2rem;
+        }
+    }
+}
+.contenedor-proyectos {
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+    background-color: v.$gris;
+}
+main {
+
+    .encabezado-proyectos {
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+            margin: 0 0 6rem 0;
+            @include m.tablet {
+                margin: 0;
+            }
+        }
+    }
+    @include m.tablet {
+        margin-top: 10rem;
+    }
+}

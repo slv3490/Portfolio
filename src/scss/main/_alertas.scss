@@ -1,0 +1,9 @@
+@use 'base/variables' as v;
+
+
+.alerta {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: v.$verde;
+}

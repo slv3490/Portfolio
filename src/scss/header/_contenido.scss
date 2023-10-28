@@ -1,0 +1,54 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    p {
+        margin-top: 5rem;
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: .3rem;
+        #bienvenido {
+            filter: none;
+            color: #CE9178;
+        }
+        #echo {
+            filter: none;
+            color: v.$amarillo;
+        }
+        span {
+            color: v.$verde;
+            filter: drop-shadow(0px 0px 4px #adff00);
+        }
+    }
+}
+@include m.tablet {
+    .contenido {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            max-width: none;
+            
+        }
+
+        .texto-header {
+            margin-right: 5rem;
+            p {
+                margin-top: 0;
+                font-size: 3rem;
+                line-height: 4rem;
+                text-align: left;
+            }
+            .texto-principal {
+                font-size: 4rem;
+            }
+        }
+    }
+}

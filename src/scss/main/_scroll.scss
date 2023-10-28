@@ -1,0 +1,28 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+html {
+    scroll-behavior: smooth;
+}
+body, .proyectos {
+    &::-webkit-scrollbar {
+        width: 15px;
+        background-color: v.$gris;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: v.$azul;
+        border-radius: 3rem;
+    }
+}
+.hidden {
+    margin-bottom: 10rem;
+}
+#proyectos {
+    margin: 0 auto 15rem;
+    @include m.tablet {
+        margin: 0 auto 30rem;
+    }
+}
+#contacto {
+    margin: 0;
+}

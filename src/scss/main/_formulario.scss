@@ -1,0 +1,97 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.contenedor-formulario {
+    background-image: url("https://www.thecolvinco.com/es/blog/wp-content/uploads/2018/11/shutterstock_174452435.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3rem 1rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.formulario {
+    margin: 3rem auto 0;
+    max-width: 60rem;
+    backdrop-filter: blur(13px);
+    border: 1px solid v.$blanco;
+    input, textarea {
+        width: 100%;
+    }
+    textarea {
+        max-width: 20rem;
+        min-height: 20rem;
+        min-width: 15rem;
+        max-height: 30rem;
+        flex: 1;
+        @include m.miniTel {
+            max-width: 56rem;
+            min-width: 30rem;
+        }
+        @include m.tablet {
+            min-width: 27.6rem;
+            max-width: 55.2rem;
+            min-height: 20rem;
+            max-height: 35rem;
+        }
+        
+    }
+    fieldset {
+        padding: 2rem;
+        border: none;
+    }
+    input[type="submit"] {
+        margin: 2rem 2rem 2rem auto;
+    }
+}
+
+.input-group {
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+}
+.input {
+    border: 1px solid v.$blanco;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: auto;
+    color: v.$blanco;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+}
+.user-label {
+    position: absolute;
+    left: 15px;
+    color: #ebebeb;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+}
+.input:focus{
+    outline: none;
+    // border: 1.5px solid v.$azulOscuro;
+}
+.input:focus ~ label{
+    transform: translateY(-90%) scale(0.8);
+    // padding: 0 .2rem;
+    // color: lighten(v.$azul, 25%);
+    // font-weight: v.$bold;
+}
+form .boton {
+    @include m.boton (v.$azulOscuro, v.$verde);
+    margin: 2rem 0 0 auto;
+}
+//Cambiar el fondo del autocompletado de un input
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #060828e9 inset;
+}
+//Cambiar el color del contenido del autocompletado de un input
+input:-webkit-autofill {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.fijar {
+    transform: translateY(-90%) scale(0.8);
+}

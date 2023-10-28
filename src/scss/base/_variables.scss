@@ -1,0 +1,44 @@
+// Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&display=swap');
+
+$fuente_principal: 'Poppins', sans-serif;
+$fuenteSecundaria: 'Montserrat', sans-serif;
+
+// Tamaño de Media Queries
+$miniTel: 375px;
+$telefono400: 400px;
+$telefono: 480px;
+$tablet540: 540px;
+$tablet640: 640px;
+$tablet: 768px;
+$tabletGrande: 900px;
+$desktop: 1024px;
+$desktop1280: 1280px;
+
+//Alturas
+$iphone: 750px;
+
+// Colores
+$crema: #CE9178;
+$cremaOscuro: #a16e5a;
+$azul: #2196f3;
+$azulOscuro: #052cc8;
+$rojo: #cb0000;
+$verde: #7ca22c;
+$negro: #05060e;
+$verdeVivo: #aeff00;
+$amarillo: #DCDCAA;
+$amarilloOscuro: #7c7c58;
+
+$blanco: #FFFFFF;
+$gris: #252532;
+$grisClaro: #6e6e68;
+
+$separacion: 5rem;
+
+// Fuentes
+$delgada: 300;
+$regular : 400;
+$f500: 500;
+$bold: 700;
+$black: 900
