@@ -13,7 +13,7 @@
         <div class="bg-nav">
             <div class="contenedor navegacion">
                 <a href="#">
-                    <img class="animado" src="../build/img/logopruieba.png" alt="">
+                    <img class="animado" src="../build/img/logopruieba.png" alt="Imagen logo de la pagina">
                 </a>
                 <nav>
                     <a class="enlace1 animado" href="#proyectos" style="--clr:#7ca22c" data-text="Proyectos">Proyectos</a>

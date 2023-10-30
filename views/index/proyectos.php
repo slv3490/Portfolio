@@ -19,10 +19,10 @@
                             <div class="descripcion-proyecto">
                                 <p>Tecnologias</p>
                                 <div class="iconos-video">
-                                    <img src="build/img/php.svg" alt="php">
-                                    <img src="build/img/javascript.png" alt="javascript">
-                                    <img src="build/img/css.svg" alt="css">
-                                    <img src="build/img/html5.svg" alt="html5">
+                                    <img src="build/img/php.svg" alt="Icono php">
+                                    <img src="build/img/javascript.png" alt="Icono javascript">
+                                    <img src="build/img/css.svg" alt="Icono css">
+                                    <img src="build/img/html5.svg" alt="Icono HTML5">
                                 </div>
                             </div>
                         </a>
@@ -38,10 +38,10 @@
                             <div class="descripcion-proyecto">
                                 <p>Tecnologias</p>
                                 <div class="iconos-video">
-                                    <img src="build/img/php.svg" alt="php">
-                                    <img src="build/img/javascript.png" alt="javascript">
-                                    <img src="build/img/css.svg" alt="css">
-                                    <img src="build/img/html5.svg" alt="html5">
+                                    <img src="build/img/php.svg" alt="Icono php">
+                                    <img src="build/img/javascript.png" alt="Icono javascript">
+                                    <img src="build/img/css.svg" alt="Icono css">
+                                    <img src="build/img/html5.svg" alt="Icono HTML5">
                                 </div>
                             </div>
                         </a>
@@ -57,10 +57,10 @@
                             <div class="descripcion-proyecto">
                                 <p>Tecnologias</p>
                                 <div class="iconos-video">
-                                    <img src="build/img/php.svg" alt="php">
-                                    <img src="build/img/javascript.png" alt="javascript">
-                                    <img src="build/img/css.svg" alt="css">
-                                    <img src="build/img/html5.svg" alt="html5">
+                                    <img src="build/img/php.svg" alt="Icono php">
+                                    <img src="build/img/javascript.png" alt="Icono javascript">
+                                    <img src="build/img/css.svg" alt="Icono css">
+                                    <img src="build/img/html5.svg" alt="Icono HTML5">
                                 </div>
                             </div>
                         </a>
@@ -76,9 +76,9 @@
                         <div class="descripcion-proyecto">
                             <p>Tecnologias</p>
                             <div class="iconos-video">
-                                <img src="build/img/javascript.png" alt="javascript">
-                                <img src="build/img/css.svg" alt="css">
-                                <img src="build/img/html5.svg" alt="html5">
+                                <img src="build/img/javascript.png" alt="Icono javascript">
+                                <img src="build/img/css.svg" alt="Icono css">
+                                <img src="build/img/html5.svg" alt="Icono HTML5">
                             </div>
                         </div>
                         </a>
@@ -94,8 +94,8 @@
                             <div class="descripcion-proyecto">
                                 <p>Tecnologias</p>
                                 <div class="iconos-video">
-                                    <img src="build/img/css.svg" alt="css">
-                                    <img src="build/img/html5.svg" alt="html5">
+                                    <img src="build/img/css.svg" alt="Icono css">
+                                    <img src="build/img/html5.svg" alt="Icono HTML5">
                                 </div>
                             </div>
                         </a>
@@ -111,8 +111,8 @@
                             <div class="descripcion-proyecto">
                                 <p>Tecnologias</p>
                                 <div class="iconos-video">
-                                    <img src="build/img/css.svg" alt="css">
-                                    <img src="build/img/html5.svg" alt="html5">
+                                    <img src="build/img/css.svg" alt="Icono css">
+                                    <img src="build/img/html5.svg" alt="Icono HTML5">
                                 </div>
                             </div>
                         </a>
@@ -128,8 +128,8 @@
                             <div class="descripcion-proyecto">
                                 <p>Tecnologias</p>
                                 <div class="iconos-video">
-                                    <img src="build/img/css.svg" alt="css">
-                                    <img src="build/img/html5.svg" alt="html5">
+                                    <img src="build/img/css.svg" alt="Icono css">
+                                    <img src="build/img/html5.svg" alt="Icono HTML5">
                                 </div>
                             </div>
                         </a>
